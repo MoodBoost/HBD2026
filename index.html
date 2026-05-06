@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Eka!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card-container" id="mainCard">
+        <!-- Halaman Sampul Depan -->
+        <div id="cover" class="view-section">
+            <p class="from-tag">From: Radit 👨🏻‍💻</p>
+            <h1>Coba tebak ini hari apa? 🤔</h1>
+            
+            <div class="gift-box" id="openBtn">
+                <div class="gift-icon">🎁</div>
+                <span id="btnText">Pencet Dulu Sini Kak!</span>
+            </div>
+        </div>
+
+        <!-- Halaman Pesan Ulang Tahun -->
+        <div id="message" class="view-section hidden">
+            
+            <!-- Foto Utama (Foto Eka 6.jpeg) -->
+            <div class="photo-frame main-photo" id="polaroidPhoto">
+                <img src="img/Foto Eka 6.jpeg" alt="Foto Eka">
+                <p class="photo-caption">Happy Birthday Eka! 🎉</p>
+            </div>
+
+            <h1>Hi Eka! 🎂</h1>
+            
+            <div class="message-content">
+                <p>Happy birthday Ka! Selamat menunaikan usia yang baru. Udah makin tuwa aja nih adek tingkat gwehj yang satu ini.</p>
+                <p>Nih kukasih tutor cara bikin web biar gak kayak kemaren lagi, mau ngasih ucapan malah nyerah ngoding gara-gara ajur kabeh.</p>
+                <p>Aku doain semoga kamu panjang umur, sehat selalu, rezekinya banyak dan lancar biar bisa kasih aku, dilancarin kuliahnya, sama dikabulkan doa-doanya. Jangan males-malesan itu ngejar S1 nya biar cepet nyusul lulus!</p>
+                <p>Nanti abis ini udah KKN, abis itu bikin proposal, terus Skripsian. Hiiii seramnyooo, pokoknya tetep semangatlah ini njalanin kuliah, walau agak nyerimpeti</p>
+                <p>Mana ini katanya mau jokiin skripsiku, malah dah mau selesai nih. Skemmer emang orang sauwibuk ini, dah gitu kalo main gak ajak-ajak</p>
+                <p class="wish">Sekali lagi, Happy Birthday Eka!</p>
+            </div>
+
+            <button id="moreConfettiBtn">Pencet Kalo Gabut Biar Hujan Confetti 🎊</button>
+        </div>
+    </div>
+
+    <!-- Galeri 6 Foto dipindah ke BAWAH kotak pesan -->
+    <div id="photoGallery" class="hidden">
+        <div class="photo-frame scatter-photo"><img src="img/Foto Eka 1.jpeg" alt="Foto 1"></div>
+        <div class="photo-frame scatter-photo"><img src="img/Foto Eka 2.jpeg" alt="Foto 2"></div>
+        <div class="photo-frame scatter-photo"><img src="img/Foto Eka 3.jpeg" alt="Foto 3"></div>
+        <div class="photo-frame scatter-photo"><img src="img/Foto Eka 4.jpeg" alt="Foto 4"></div>
+        <div class="photo-frame scatter-photo"><img src="img/Foto Eka 5.jpeg" alt="Foto 5"></div>
+        <!-- Lanjut ke foto 7 karena foto 6 ada di atas -->
+        <div class="photo-frame scatter-photo"><img src="img/Foto Eka 7.jpeg" alt="Foto 7"></div>
+    </div>
+
+    <!-- Script Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
